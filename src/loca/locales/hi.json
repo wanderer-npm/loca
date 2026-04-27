@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "hi",
+    "name": "Hindi",
+    "native_name": "हिन्दी",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "अभी",
+    "ago": {
+      "minutes": "{n} मिनट पहले|{n} मिनट पहले",
+      "hours": "{n} घंटे पहले|{n} घंटे पहले",
+      "days": "{n} दिन पहले|{n} दिन पहले",
+      "months": "{n} महीने पहले|{n} महीने पहले",
+      "years": "{n} साल पहले|{n} साल पहले"
+    },
+    "in": {
+      "minutes": "{n} मिनट में|{n} मिनट में",
+      "hours": "{n} घंटे में|{n} घंटे में",
+      "days": "{n} दिन में|{n} दिन में",
+      "months": "{n} महीने में|{n} महीने में",
+      "years": "{n} साल में|{n} साल में"
+    }
+  },
+  "ping": {
+    "checking": "पिंग हो रहा है...",
+    "result": "पोंग! विलंब: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "पोंग! विलंब: **{latency}ms** — WebSocket: **{ws}ms** *(थोड़ा धीमा)*"
+  },
+  "error": {
+    "not_found": "{thing} नहीं मिला।",
+    "no_permission": "आपके पास यह करने की अनुमति नहीं है।",
+    "cooldown": "धीरे। {seconds} सेकंड में फिर से प्रयास करें।",
+    "generic": "कुछ गलत हो गया।"
+  }
+}

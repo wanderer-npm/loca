@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "ko",
+    "name": "Korean",
+    "native_name": "한국어",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "방금 전",
+    "ago": {
+      "minutes": "{n}분 전",
+      "hours": "{n}시간 전",
+      "days": "{n}일 전",
+      "months": "{n}개월 전",
+      "years": "{n}년 전"
+    },
+    "in": {
+      "minutes": "{n}분 후",
+      "hours": "{n}시간 후",
+      "days": "{n}일 후",
+      "months": "{n}개월 후",
+      "years": "{n}년 후"
+    }
+  },
+  "ping": {
+    "checking": "핑 측정 중...",
+    "result": "퐁! 지연: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "퐁! 지연: **{latency}ms** — WebSocket: **{ws}ms** *(좀 느려요)*"
+  },
+  "error": {
+    "not_found": "{thing}을(를) 찾을 수 없습니다.",
+    "no_permission": "그 작업을 수행할 권한이 없습니다.",
+    "cooldown": "천천히 하세요. {seconds}초 후에 다시 시도하세요.",
+    "generic": "문제가 발생했습니다."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "nl",
+    "name": "Dutch",
+    "native_name": "Nederlands",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "zojuist",
+    "ago": {
+      "minutes": "{n} minuut geleden|{n} minuten geleden",
+      "hours": "{n} uur geleden|{n} uur geleden",
+      "days": "{n} dag geleden|{n} dagen geleden",
+      "months": "{n} maand geleden|{n} maanden geleden",
+      "years": "{n} jaar geleden|{n} jaar geleden"
+    },
+    "in": {
+      "minutes": "over {n} minuut|over {n} minuten",
+      "hours": "over {n} uur|over {n} uur",
+      "days": "over {n} dag|over {n} dagen",
+      "months": "over {n} maand|over {n} maanden",
+      "years": "over {n} jaar|over {n} jaar"
+    }
+  },
+  "ping": {
+    "checking": "Pingen...",
+    "result": "Pong! Latentie: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "Pong! Latentie: **{latency}ms** — WebSocket: **{ws}ms** *(wat traag)*"
+  },
+  "error": {
+    "not_found": "Kon {thing} niet vinden.",
+    "no_permission": "Je hebt geen toestemming om dat te doen.",
+    "cooldown": "Rustig aan. Probeer het opnieuw in {seconds}s.",
+    "generic": "Er is iets fout gegaan."
+  }
+}

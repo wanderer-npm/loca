@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "pl",
+    "name": "Polish",
+    "native_name": "Polski",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "przed chwilą",
+    "ago": {
+      "minutes": "{n} minutę temu|{n} minuty temu|{n} minut temu|{n} minut temu",
+      "hours": "{n} godzinę temu|{n} godziny temu|{n} godzin temu|{n} godzin temu",
+      "days": "{n} dzień temu|{n} dni temu|{n} dni temu|{n} dni temu",
+      "months": "{n} miesiąc temu|{n} miesiące temu|{n} miesięcy temu|{n} miesięcy temu",
+      "years": "{n} rok temu|{n} lata temu|{n} lat temu|{n} lat temu"
+    },
+    "in": {
+      "minutes": "za {n} minutę|za {n} minuty|za {n} minut|za {n} minut",
+      "hours": "za {n} godzinę|za {n} godziny|za {n} godzin|za {n} godzin",
+      "days": "za {n} dzień|za {n} dni|za {n} dni|za {n} dni",
+      "months": "za {n} miesiąc|za {n} miesiące|za {n} miesięcy|za {n} miesięcy",
+      "years": "za {n} rok|za {n} lata|za {n} lat|za {n} lat"
+    }
+  },
+  "ping": {
+    "checking": "Pingowanie...",
+    "result": "Pong! Opóźnienie: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "Pong! Opóźnienie: **{latency}ms** — WebSocket: **{ws}ms** *(trochę wolno)*"
+  },
+  "error": {
+    "not_found": "Nie można znaleźć {thing}.",
+    "no_permission": "Nie masz uprawnień do tego.",
+    "cooldown": "Spokojnie. Spróbuj ponownie za {seconds}s.",
+    "generic": "Coś poszło nie tak."
+  }
+}

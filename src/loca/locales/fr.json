@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "fr",
+    "name": "French",
+    "native_name": "Français",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "à l'instant",
+    "ago": {
+      "minutes": "il y a {n} minute|il y a {n} minutes",
+      "hours": "il y a {n} heure|il y a {n} heures",
+      "days": "il y a {n} jour|il y a {n} jours",
+      "months": "il y a {n} mois|il y a {n} mois",
+      "years": "il y a {n} an|il y a {n} ans"
+    },
+    "in": {
+      "minutes": "dans {n} minute|dans {n} minutes",
+      "hours": "dans {n} heure|dans {n} heures",
+      "days": "dans {n} jour|dans {n} jours",
+      "months": "dans {n} mois|dans {n} mois",
+      "years": "dans {n} an|dans {n} ans"
+    }
+  },
+  "ping": {
+    "checking": "Ping en cours...",
+    "result": "Pong ! Latence : **{latency}ms** — WebSocket : **{ws}ms**",
+    "slow": "Pong ! Latence : **{latency}ms** — WebSocket : **{ws}ms** *(un peu lent)*"
+  },
+  "error": {
+    "not_found": "Impossible de trouver {thing}.",
+    "no_permission": "Vous n'avez pas la permission de faire ça.",
+    "cooldown": "Doucement. Réessayez dans {seconds}s.",
+    "generic": "Quelque chose s'est mal passé."
+  }
+}

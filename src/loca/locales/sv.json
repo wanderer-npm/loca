@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "sv",
+    "name": "Swedish",
+    "native_name": "Svenska",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "just nu",
+    "ago": {
+      "minutes": "{n} minut sedan|{n} minuter sedan",
+      "hours": "{n} timme sedan|{n} timmar sedan",
+      "days": "{n} dag sedan|{n} dagar sedan",
+      "months": "{n} månad sedan|{n} månader sedan",
+      "years": "{n} år sedan|{n} år sedan"
+    },
+    "in": {
+      "minutes": "om {n} minut|om {n} minuter",
+      "hours": "om {n} timme|om {n} timmar",
+      "days": "om {n} dag|om {n} dagar",
+      "months": "om {n} månad|om {n} månader",
+      "years": "om {n} år|om {n} år"
+    }
+  },
+  "ping": {
+    "checking": "Pingar...",
+    "result": "Pong! Latens: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "Pong! Latens: **{latency}ms** — WebSocket: **{ws}ms** *(lite långsamt)*"
+  },
+  "error": {
+    "not_found": "Kunde inte hitta {thing}.",
+    "no_permission": "Du har inte behörighet att göra det.",
+    "cooldown": "Lugna ner dig. Försök igen om {seconds}s.",
+    "generic": "Något gick fel."
+  }
+}
