@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "pt-BR",
+    "name": "Portuguese (Brazil)",
+    "native_name": "Português (Brasil)",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "agora mesmo",
+    "ago": {
+      "minutes": "há {n} minuto|há {n} minutos",
+      "hours": "há {n} hora|há {n} horas",
+      "days": "há {n} dia|há {n} dias",
+      "months": "há {n} mês|há {n} meses",
+      "years": "há {n} ano|há {n} anos"
+    },
+    "in": {
+      "minutes": "em {n} minuto|em {n} minutos",
+      "hours": "em {n} hora|em {n} horas",
+      "days": "em {n} dia|em {n} dias",
+      "months": "em {n} mês|em {n} meses",
+      "years": "em {n} ano|em {n} anos"
+    }
+  },
+  "ping": {
+    "checking": "Pingando...",
+    "result": "Pong! Latência: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "Pong! Latência: **{latency}ms** — WebSocket: **{ws}ms** *(um pouco lento)*"
+  },
+  "error": {
+    "not_found": "Não foi possível encontrar {thing}.",
+    "no_permission": "Você não tem permissão para fazer isso.",
+    "cooldown": "Devagar. Tente novamente em {seconds}s.",
+    "generic": "Algo deu errado."
+  }
+}

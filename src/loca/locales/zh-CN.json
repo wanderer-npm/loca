@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "zh-CN",
+    "name": "Chinese (Simplified)",
+    "native_name": "简体中文",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "刚刚",
+    "ago": {
+      "minutes": "{n}分钟前",
+      "hours": "{n}小时前",
+      "days": "{n}天前",
+      "months": "{n}个月前",
+      "years": "{n}年前"
+    },
+    "in": {
+      "minutes": "{n}分钟后",
+      "hours": "{n}小时后",
+      "days": "{n}天后",
+      "months": "{n}个月后",
+      "years": "{n}年后"
+    }
+  },
+  "ping": {
+    "checking": "正在测速...",
+    "result": "Pong！延迟：**{latency}ms** — WebSocket：**{ws}ms**",
+    "slow": "Pong！延迟：**{latency}ms** — WebSocket：**{ws}ms** *（有点慢）*"
+  },
+  "error": {
+    "not_found": "找不到{thing}。",
+    "no_permission": "你没有权限执行此操作。",
+    "cooldown": "慢点。请在{seconds}秒后重试。",
+    "generic": "出了点问题。"
+  }
+}

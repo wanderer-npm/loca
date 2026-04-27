@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "loca"
+version = "0.1.0"
+description = "Lightweight i18n and localization library with async support"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "slug-discord" }]
+keywords = ["i18n", "localization", "internationalization", "discord", "async"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: AsyncIO",
+]
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/loca"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

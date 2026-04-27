@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "ja",
+    "name": "Japanese",
+    "native_name": "日本語",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "たった今",
+    "ago": {
+      "minutes": "{n}分前",
+      "hours": "{n}時間前",
+      "days": "{n}日前",
+      "months": "{n}ヶ月前",
+      "years": "{n}年前"
+    },
+    "in": {
+      "minutes": "{n}分後",
+      "hours": "{n}時間後",
+      "days": "{n}日後",
+      "months": "{n}ヶ月後",
+      "years": "{n}年後"
+    }
+  },
+  "ping": {
+    "checking": "計測中...",
+    "result": "ポン！遅延: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "ポン！遅延: **{latency}ms** — WebSocket: **{ws}ms** *(少し遅い)*"
+  },
+  "error": {
+    "not_found": "{thing}が見つかりませんでした。",
+    "no_permission": "その操作を行う権限がありません。",
+    "cooldown": "少し待ってください。{seconds}秒後に再試行してください。",
+    "generic": "エラーが発生しました。"
+  }
+}

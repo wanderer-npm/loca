@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "code": "tr",
+    "name": "Turkish",
+    "native_name": "Türkçe",
+    "rtl": false,
+    "author": "wanderer-npm",
+    "version": "1.0"
+  },
+  "time": {
+    "just_now": "az önce",
+    "ago": {
+      "minutes": "{n} dakika önce",
+      "hours": "{n} saat önce",
+      "days": "{n} gün önce",
+      "months": "{n} ay önce",
+      "years": "{n} yıl önce"
+    },
+    "in": {
+      "minutes": "{n} dakika içinde",
+      "hours": "{n} saat içinde",
+      "days": "{n} gün içinde",
+      "months": "{n} ay içinde",
+      "years": "{n} yıl içinde"
+    }
+  },
+  "ping": {
+    "checking": "Ping atılıyor...",
+    "result": "Pong! Gecikme: **{latency}ms** — WebSocket: **{ws}ms**",
+    "slow": "Pong! Gecikme: **{latency}ms** — WebSocket: **{ws}ms** *(biraz yavaş)*"
+  },
+  "error": {
+    "not_found": "{thing} bulunamadı.",
+    "no_permission": "Bunu yapma iznin yok.",
+    "cooldown": "Yavaşla. {seconds}s içinde tekrar dene.",
+    "generic": "Bir şeyler ters gitti."
+  }
+}
